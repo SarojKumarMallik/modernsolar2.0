@@ -22,7 +22,7 @@ const Pmsuryaghar = () => {
           </h1>
 
           <p className="pmsuryaghar-description">
-            BSP Project Solutions assists customers in availing benefits under
+            Modern Solar 2.0 assists customers in availing benefits under
             the PM Surya Ghar scheme, including documentation, application
             processing, and coordination.
           </p>

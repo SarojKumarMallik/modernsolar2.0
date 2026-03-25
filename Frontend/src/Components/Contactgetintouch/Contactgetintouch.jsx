@@ -115,7 +115,7 @@ const Contactgetintouch = () => {
               </div>
               <div>
                 <p>Call Us</p>
-                <a href="tel:8018970154">+91 8018970154</a>
+                <a href="tel:9776835415">+91 9776835415</a>
               </div>
             </div>
 
@@ -125,8 +125,8 @@ const Contactgetintouch = () => {
               </div>
               <div>
                 <p>Email Us</p>
-                <a href="mailto:bspprojectsolutions@gmail.com">
-                  bspprojectsolutions@gmail.com
+                <a href="mailto:modernsolar2026@gmail.com">
+                  modernsolar2026@gmail.com
                 </a>
               </div>
             </div>

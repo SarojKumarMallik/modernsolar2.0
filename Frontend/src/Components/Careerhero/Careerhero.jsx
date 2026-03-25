@@ -46,7 +46,7 @@ const Careerhero = () => {
 
           <h1>
             Build Your Career at <br />
-            <span>BSP Project Solutions Pvt Ltd</span>
+            <span></span>
           </h1>
 
           <p className="careerhero-description">

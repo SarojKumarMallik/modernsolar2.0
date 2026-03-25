@@ -30,7 +30,7 @@ const Footer = () => {
 
                 {/* ✅ NEW TEXT BELOW LOGO */}
                 <div className="footer-brand-text">
-                  <h4 className="brand-title">BSP Product Solution</h4>
+                  <h4 className="brand-title">Modern Solar 2.0</h4>
                   <p className="brand-description">
                     Delivering innovative solar energy solutions for homes,
                     businesses, and industries. Empowering a sustainable
@@ -51,9 +51,9 @@ const Footer = () => {
                 <li>
                   <Link to="/about">About Us</Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link to="/blogs">Blog</Link>
-                </li>
+                </li> */}
                 <li>
                   <Link to="/career">Carrer</Link>
                 </li>
@@ -117,7 +117,7 @@ const Footer = () => {
                       rel="noopener noreferrer"
                       style={{ textDecoration: "none", color: "inherit" }}
                     >
-                      <FaMapMarkerAlt /> Kendrapara , Odisha
+                      <FaMapMarkerAlt />Singiri Sasan ,Anada Bazar, Bhubaneswar 752100
                     </a>
                   </p>
 
@@ -133,16 +133,31 @@ const Footer = () => {
                           marginRight: "6px",
                         }}
                       />
-                      +91 8018970154
+                      +91  8018970154
+                    </a>
+                  </p>
+                  <p>
+                    <a
+                      href="tel:+918763798078"
+                      style={{ textDecoration: "none", color: "inherit" }}
+                    >
+                      <FaPhone
+                        style={{
+                          transform: "rotate(90deg)",
+                          display: "inline-block",
+                          marginRight: "6px",
+                        }}
+                      />
+                      +91 8763798078
                     </a>
                   </p>
 
                   <p>
                     <a
-                      href="mailto:bspprojectsolutions@gmail.com"
+                      href="mailto:modernsolar2026@gmail.com"
                       style={{ textDecoration: "none", color: "inherit" }}
                     >
-                      <FaEnvelope /> bspprojectsolutions@gmail.com
+                      <FaEnvelope /> modernsolar2026@gmail.com
                     </a>
                   </p>
                 </div>
@@ -159,7 +174,7 @@ const Footer = () => {
             <div className="footer-copyright">
               <p>
                 &copy; {new Date().getFullYear()}{" "}
-                <strong>BSP Product Solutions</strong>. All rights reserved.
+                <strong>Modern Solar 2.0</strong>. All rights reserved.
               </p>
             </div>
 

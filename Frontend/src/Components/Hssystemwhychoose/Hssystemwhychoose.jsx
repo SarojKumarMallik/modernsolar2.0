@@ -18,7 +18,7 @@ const Hssystemwhychoose = () => {
     {
       title: "Expert Guidance",
       description:
-        "BSP Project Solutions Private Limited assigns a dedicated energy advisor who provides unbiased and professional technical guidance.",
+        "Modern Solar 2.0 Private Limited assigns a dedicated energy advisor who provides unbiased and professional technical guidance.",
       icon: <FaUserTie />,
     },
     {
@@ -41,16 +41,16 @@ const Hssystemwhychoose = () => {
 
         <div className="Hssystemwhychoose-header">
           <span className="Hssystemwhychoose-badge">
-            WHY BSP PROJECT SOLUTIONS
+            WHY Modern Solar 2.0
           </span>
 
           <h2>
-            Why Choose <span>BSP Project Solutions</span> for
+            Why Choose <span>Modern Solar 2.0</span> for
             Hybrid Solar Installation?
           </h2>
 
           <p>
-            Discover why homeowners and businesses trust BSP Project Solutions
+            Discover why homeowners and businesses trust Modern Solar 2.0
             Private Limited for reliable and high-performance hybrid solar systems.
           </p>
         </div>

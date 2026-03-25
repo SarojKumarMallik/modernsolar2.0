@@ -44,7 +44,7 @@ const Offgridinstallationprocessbsp = () => {
           </span>
           <h2>
             Off Grid Solar Power System Installation With{" "}
-            <span>BSP Project Solutions</span>
+            <span>Modern Solar 2.0</span>
           </h2>
           <p>
             A structured and professional approach ensuring seamless off-grid solar installation.

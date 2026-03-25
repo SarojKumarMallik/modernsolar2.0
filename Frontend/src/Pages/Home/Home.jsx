@@ -20,19 +20,19 @@ const Home = () => {
       <Helmet>
         <title>
           Solar Company in Odisha | Rooftop & Commercial Solar Installation -
-          BSP Project Solutions
+          Modern Solar 2.0
         </title>
 
         {/* Meta Description */}
         <meta
           name="description"
-          content="BSP Project Solutions is a leading solar company in Odisha providing rooftop solar installation, on-grid, off-grid & commercial solar systems with government subsidy support."
+          content="Modern Solar 2.0 is a leading solar company in Odisha providing rooftop solar installation, on-grid, off-grid & commercial solar systems with government subsidy support."
         />
 
         {/* Keywords */}
         <meta
           name="keywords"
-          content="solar company in Odisha, rooftop solar installation, on grid solar system, off grid solar system, commercial solar installation, solar panel installation in Odisha, BSP Project Solutions"
+          content="solar company in Odisha, rooftop solar installation, on grid solar system, off grid solar system, commercial solar installation, solar panel installation in Odisha, Modern Solar 2.0"
         />
 
         {/* Robots */}
@@ -44,7 +44,7 @@ const Home = () => {
         {/* Open Graph */}
         <meta
           property="og:title"
-          content="Solar Company in Odisha | BSP Project Solutions"
+          content="Solar Company in Odisha | Modern Solar 2.0"
         />
         <meta
           property="og:description"
@@ -59,7 +59,7 @@ const Home = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Solar Company in Odisha | BSP Project Solutions"
+          content="Solar Company in Odisha | Modern Solar 2.0"
         />
         <meta
           name="twitter:description"

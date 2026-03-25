@@ -3,35 +3,34 @@ import "./Testimonial.css";
 
 const testimonials = [
   {
-    text: `We feel empowered knowing that our home is powered by clean, renewable energy. Our decision to go solar has reduced our carbon footprint, and the positive impact on the environment gives us peace of mind.`,
-    name: "Jennifer Dust",
-    role: "HR – Archy CO.",
-    avatar: "https://randomuser.me/api/portraits/women/65.jpg",
+    text: `Choosing this solar company was one of the best decisions we made. The team explained everything clearly and delivered a smooth installation. Our electricity bills have reduced significantly.`,
+    name: "Saroj Kumar Mallik",
+    role: "Home Owner",
+    avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY-m3dMUc5Qx8MSBWXDNvvcsCblFf_08GKJQ&s",
     rating: 5,
   },
   {
-    text: `Switching to solar has transformed the way we think about energy. Lower bills, cleaner power, and a better future for our family. The installation process was seamless and professional.`,
-    name: "James Clark",
-    role: "CEO – Atlas",
-    avatar: "https://randomuser.me/api/portraits/men/32.jpg",
+    text: `Professional service and excellent support from start to finish. The solar system is performing beyond expectations, and we are happy to contribute to a greener future.`,
+    name: "Sandeep Swain",
+    role: "Business Owner",
+    avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY-m3dMUc5Qx8MSBWXDNvvcsCblFf_08GKJQ&s",
     rating: 5,
   },
   {
-    text: `Solar energy gave us control, confidence, and sustainability. A smart move for our home that has exceeded our expectations in both performance and savings.`,
-    name: "Sophia Turner",
-    role: "Operations Lead",
-    avatar: "https://randomuser.me/api/portraits/women/44.jpg",
+    text: `The installation was quick and hassle-free. The team was knowledgeable and guided us properly. We are already seeing great savings on our monthly energy bills.`,
+    name: "Maheswar Biswal",
+    role: "Engineer",
+    avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY-m3dMUc5Qx8MSBWXDNvvcsCblFf_08GKJQ&s",
     rating: 4,
   },
   {
-    text: `The best investment we've made for our home. Reliable, efficient, and environmentally friendly. Our energy bills have dropped significantly while doing good for the planet.`,
-    name: "Michael Rodriguez",
-    role: "CTO – TechFlow",
-    avatar: "https://randomuser.me/api/portraits/men/22.jpg",
+    text: `Highly satisfied with the quality and performance of the solar panels. The company provided excellent service and after-installation support.`,
+    name: "Somerash Parida",
+    role: "Entrepreneur",
+    avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY-m3dMUc5Qx8MSBWXDNvvcsCblFf_08GKJQ&s",
     rating: 5,
   },
 ];
-
 const Testimonial = () => {
   const [active, setActive] = useState(0);
   const [isTransitioning, setIsTransitioning] = useState(false);
@@ -128,11 +127,7 @@ const Testimonial = () => {
                 <div className="user_details">
                   <h4 className="user_name">{testimonials[active].name}</h4>
                   <span className="user_role">{testimonials[active].role}</span>
-                  <div className="user_stats">
-                    <span className="stat">Verified Customer</span>
-                    <span className="stat_divider">•</span>
-                    <span className="stat">6 Months Experience</span>
-                  </div>
+                  
                 </div>
               </div>
             </div>

@@ -15,7 +15,7 @@ const Solaramcannualmaintenancecost = () => {
         </p>
 
         <p className="Solaramcannualmaintenancecost-text">
-          If you are interested in the annual maintenance contract for a solar power plant, you can reach us via call (+918018970154) or email (info@ranasolarpower.com). You can also reach us by filling out the Contact Us form and our energy advisor will contact you for further discussion.
+          If you are interested in the annual maintenance contract for a solar power plant, you can reach us via call (+919776835415) or email (info@ranasolarpower.com). You can also reach us by filling out the Contact Us form and our energy advisor will contact you for further discussion.
         </p>
 
       </div>

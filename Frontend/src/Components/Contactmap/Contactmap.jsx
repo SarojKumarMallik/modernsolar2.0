@@ -9,7 +9,7 @@ const Contactmap = () => {
         <div className="contactmap-header">
           <span className="contactmap-subtitle">OUR LOCATION</span>
           <h2 className="contactmap-title">
-            Visit BSP Project Solutions
+            Visit Modern Solar 2.0
           </h2>
           <p className="contactmap-description">
             We are located in Kendrapara, Odisha. Feel free to visit our office
@@ -26,7 +26,7 @@ const Contactmap = () => {
             allowFullScreen=""
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="BSP Project Solutions Location"
+            title="Modern Solar 2.0 Location"
           ></iframe>
         </div>
 

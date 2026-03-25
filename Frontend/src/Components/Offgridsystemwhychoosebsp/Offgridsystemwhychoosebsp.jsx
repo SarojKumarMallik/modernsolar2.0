@@ -53,12 +53,12 @@ const Offgridsystemwhychoosebsp = () => {
           </span>
 
           <h2>
-            Why Choose <span>BSP Project Solutions</span> for
+            Why Choose <span>Modern Solar 2.0</span> for
             Off-Grid Solar Power System Installation?
           </h2>
 
           <p>
-            Here are the reasons to choose BSP Project Solutions for reliable,
+            Here are the reasons to choose Modern Solar 2.0 for reliable,
             secure and professional off-grid solar installation services.
           </p>
         </div>

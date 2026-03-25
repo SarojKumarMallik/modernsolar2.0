@@ -22,7 +22,7 @@ const Offgridsystemhero = () => {
           </h1>
 
           <p>
-            BSP Project Solutions delivers advanced off-grid solar systems
+            Modern Solar 2.0 delivers advanced off-grid solar systems
             designed for uninterrupted power supply with high-performance
             battery backup and intelligent inverter technology.
           </p>

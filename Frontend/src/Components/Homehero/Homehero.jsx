@@ -6,7 +6,7 @@ const slides = [
   {
     image: "https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=2070&q=80",
     title: "Leading Solar Company in Odisha",
-    desc: "BSP Project Solutions provides professional rooftop solar installation, on-grid solar systems, and commercial solar solutions across Odisha. Reduce electricity bills with government subsidy support.",
+    desc: "Modern Solar 2.0 provides professional rooftop solar installation, on-grid solar systems, and commercial solar solutions across Odisha. Reduce electricity bills with government subsidy support.",
   },
   {
     image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=2072&q=80",

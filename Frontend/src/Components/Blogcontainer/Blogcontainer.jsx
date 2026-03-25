@@ -19,7 +19,7 @@ const Blogcontainer = () => {
           </h2>
           <p>
             Explore expert knowledge, solar innovations, and energy-saving
-            strategies from BSP Project Solutions.
+            strategies from Modern Solar 2.0.
           </p>
         </div>
 

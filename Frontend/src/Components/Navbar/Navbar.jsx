@@ -34,7 +34,6 @@ const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState(null);
 
-  // ✅ NEW STATE FOR MOBILE DROPDOWN
   const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
   const [mobileProjectsOpen, setMobileProjectsOpen] = useState(false);
 
@@ -66,36 +65,27 @@ const Navbar = () => {
       <div className="Navbar-topbar">
         <div className="Navbar-topbar-container">
           <div className="Navbar-top-left">
-           <div className="Navbar-contact-item">
-  <FaPhoneAlt className="Navbar-contact-icon" />
-  
-  <a 
-    href="tel:+918018970154" 
-    className="Navbar-contact-link"
-  >
-    +91 8018970154
-  </a>
-</div>
+            <div className="Navbar-contact-item">
+              <FaPhoneAlt className="Navbar-contact-icon" />
+
+              <a href="tel:+919776835415" className="Navbar-contact-link">
+                +91 9776835415
+              </a>
+            </div>
+            <div className="Navbar-contact-item">
+              <FaPhoneAlt className="Navbar-contact-icon" />
+
+              <a href="tel:+918763798078" className="Navbar-contact-link">
+                +91 8763798078
+              </a>
+            </div>
             <div className="Navbar-contact-item">
               <FaEnvelope className="Navbar-contact-icon" />
-              <span>bspprojectsolutions@gmail.com</span>
+              <span>modernsolar2026@gmail.com</span>
             </div>
           </div>
 
-          <div className="Navbar-top-center">
-            <div className="Navbar-badge">
-              <img src={pmsurya} alt="PM Surya" className="Navbar-badge-logo" />
-              <span className="Navbar-badge-text">PM-Surya Ghar Approved</span>
-            </div>
-            <div className="Navbar-badge">
-              <img
-                src={tatapower}
-                alt="Tata Solar"
-                className="Navbar-badge-logo"
-              />
-              <span className="Navbar-badge-text">Authorized Tata Partner</span>
-            </div>
-          </div>
+         
 
           <div className="Navbar-top-right">
             <a href="#" className="Navbar-social-link">
@@ -124,7 +114,7 @@ const Navbar = () => {
       <header className={`navbar ${scrolled ? "scrolled" : ""}`}>
         <div className="navbar-container">
           <NavLink to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            <img src={logo} alt="BSP Project Solutions" />
+            <img src={logo} alt="Modern Solar 2.0" />
           </NavLink>
 
           {/* DESKTOP MENU (UNCHANGED) */}
@@ -233,14 +223,14 @@ const Navbar = () => {
               </div>
             </div>
 
-            <NavLink
+            {/* <NavLink
               to="/blogs"
               className={({ isActive }) =>
                 `nav-item ${isActive ? "active" : ""}`
               }
             >
               Blog
-            </NavLink>
+            </NavLink> */}
             <NavLink
               to="/career"
               className={({ isActive }) =>
@@ -263,7 +253,7 @@ const Navbar = () => {
           <div className="navbar-actions">
             <div className="enquiry-btn">
               <NavLink to="/contact" className="enquiry-link">
-                Enquiry Now <FaBolt />
+                Book Now 
               </NavLink>
             </div>
 
@@ -278,7 +268,7 @@ const Navbar = () => {
       <div className={`mobile-menu ${mobileMenuOpen ? "open" : ""}`}>
         <div className="mobile-menu-header">
           <NavLink to="/" className="mobile-logo" onClick={closeMobileMenu}>
-            <img src={logo} alt="BSP Project Solutions" />
+            <img src={logo} alt="Modern Solar 2.0" />
           </NavLink>
           <button className="close-menu" onClick={closeMobileMenu}>
             <FaTimes />

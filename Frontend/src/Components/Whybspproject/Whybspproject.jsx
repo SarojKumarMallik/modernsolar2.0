@@ -50,7 +50,7 @@ const Whybspproject = () => {
         {/* HEADER */}
         <div className="bspwhy_header">
           
-          <h2>Why Choose BSP Project Solutions</h2>
+          <h2>Why Choose Modern Solar 2.0</h2>
           <p>
             A future-ready solar partner delivering quality, transparency,
             and long-term performance you can trust.

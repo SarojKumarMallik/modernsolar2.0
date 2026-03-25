@@ -13,18 +13,18 @@ const Ongridsolarsystem = () => {
     <>
       <Helmet>
         {/* Page Title */}
-        <title>On Grid Solar System in Odisha | BSP Project Solutions</title>
+        <title>On Grid Solar System in Odisha | Modern Solar 2.0</title>
 
         {/* Meta Description */}
         <meta
           name="description"
-          content="Professional On Grid Solar System installation in Odisha. Save electricity bills with government subsidy support from BSP Project Solutions. Call today!"
+          content="Professional On Grid Solar System installation in Odisha. Save electricity bills with government subsidy support from Modern Solar 2.0. Call today!"
         />
 
         {/* Meta Keywords */}
         <meta
           name="keywords"
-          content="on grid solar system, grid tied solar system, solar installation in Odisha, rooftop solar Odisha, solar company in Odisha, BSP Project Solutions"
+          content="on grid solar system, grid tied solar system, solar installation in Odisha, rooftop solar Odisha, solar company in Odisha, Modern Solar 2.0"
         />
 
         {/* Robots */}

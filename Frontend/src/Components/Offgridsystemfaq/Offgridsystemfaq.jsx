@@ -44,7 +44,7 @@ const Offgridsystemfaq = () => {
             Frequently Asked <span>Questions</span>
           </h2>
           <p>
-            Everything you need to know about Off-Grid Solar Installation with BSP Project Solutions.
+            Everything you need to know about Off-Grid Solar Installation with Modern Solar 2.0.
           </p>
         </div>
 
