@@ -1,0 +1,164 @@
+:root {
+  --bsp-primary: #0b2e46;
+  --bsp-accent: #2E7FBF;
+  --text-dark: #1e293b;
+  --text-light: #64748b;
+}
+
+/* ================= WRAPPER ================= */
+
+.Solaramcsolarpoweroffers-wrapper {
+  padding: 50px 20px;
+  background: #ffffff;
+  font-family: "Inter", sans-serif;
+}
+
+.Solaramcsolarpoweroffers-container {
+  max-width: 1300px;
+  margin: auto;
+}
+
+/* ================= HEADER ================= */
+
+.Solaramcsolarpoweroffers-header {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.Solaramcsolarpoweroffers-badge {
+  display: inline-block;
+  background: rgba(46,127,191,0.1);
+  color: var(--bsp-accent);
+  padding: 8px 18px;
+  border-radius: 30px;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+
+.Solaramcsolarpoweroffers-title {
+  font-size: 42px;
+  font-weight: 900;
+  color: var(--bsp-primary);
+  line-height: 1.2;
+  margin-bottom: 18px;
+}
+
+.Solaramcsolarpoweroffers-subtitle {
+  font-size: 17px;
+  color: var(--text-light);
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.8;
+}
+
+.Solaramcsolarpoweroffers-accent-line {
+  width: 80px;
+  height: 4px;
+  margin: 25px auto 0;
+  background: linear-gradient(135deg, var(--bsp-accent), var(--bsp-primary));
+  border-radius: 4px;
+}
+
+/* ================= GRID ================= */
+
+.Solaramcsolarpoweroffers-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 35px;
+}
+
+/* ================= CARD ================= */
+
+.Solaramcsolarpoweroffers-card {
+  background: #ffffff;
+  border-radius: 22px;
+  padding: 35px 28px;
+  box-shadow: 0 15px 50px rgba(0,0,0,0.05);
+  transition: all 0.35s ease;
+  border: 1px solid #f1f5f9;
+  text-align: left;
+}
+
+.Solaramcsolarpoweroffers-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 25px 60px rgba(0,0,0,0.1);
+}
+
+.Solaramcsolarpoweroffers-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #e0f2fe, #dbeafe);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  color: var(--bsp-primary);
+  margin-bottom: 20px;
+}
+
+.Solaramcsolarpoweroffers-card h4 {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--bsp-primary);
+  margin-bottom: 12px;
+}
+
+.Solaramcsolarpoweroffers-card p {
+  font-size: 15px;
+  color: var(--text-light);
+  line-height: 1.6;
+}
+
+/* ================= NOTE ================= */
+
+.Solaramcsolarpoweroffers-note {
+  margin-top: 60px;
+  text-align: center;
+  font-size: 14px;
+  color: var(--text-light);
+  font-style: italic;
+  border-top: 1px solid #e2e8f0;
+  padding-top: 25px;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 1100px) {
+  .Solaramcsolarpoweroffers-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .Solaramcsolarpoweroffers-wrapper {
+    padding: 80px 18px;
+  }
+
+  .Solaramcsolarpoweroffers-title {
+    font-size: 28px;
+  }
+
+  .Solaramcsolarpoweroffers-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .Solaramcsolarpoweroffers-card {
+    padding: 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  .Solaramcsolarpoweroffers-title {
+    font-size: 22px;
+  }
+
+  .Solaramcsolarpoweroffers-subtitle {
+    font-size: 15px;
+  }
+
+  .Solaramcsolarpoweroffers-card p {
+    font-size: 14px;
+  }
+}

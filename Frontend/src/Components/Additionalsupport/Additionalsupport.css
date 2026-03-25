@@ -1,0 +1,114 @@
+:root {
+  --bsp-primary: #0b2e46;
+  --bsp-accent: #2E7FBF;
+  --white: #ffffff;
+  --light-white: #e2e8f0;
+}
+
+/* ================= SECTION ================= */
+.addsupport {
+  padding: 60px 0;
+  background: var(--bsp-primary); /* THEME BACKGROUND */
+}
+
+/* ================= CONTAINER ================= */
+.addsupport_container {
+  max-width: 1400px;
+  margin: auto;
+  padding: 38px 44px;
+}
+
+/* ================= TITLE ================= */
+.addsupport_title {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--white); /* WHITE TEXT */
+  margin-bottom: 34px;
+  letter-spacing: -0.3px;
+}
+
+/* ================= LIST ================= */
+.addsupport_list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 34px;
+  flex-wrap: wrap;
+}
+
+/* ================= ITEM ================= */
+.addsupport_item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 15.5px;
+  font-weight: 600;
+  color: var(--white);
+  white-space: nowrap;
+  transition: transform 0.25s ease;
+}
+
+.addsupport_item:hover {
+  transform: translateY(-3px);
+}
+
+/* ================= ICON ================= */
+.addsupport_icon {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--bsp-accent), #1e90ff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 14px;
+  box-shadow: 0 6px 18px rgba(46, 127, 191, 0.45);
+  flex-shrink: 0;
+  transition: transform 0.3s ease;
+}
+
+.addsupport_item:hover .addsupport_icon {
+  transform: scale(1.1);
+}
+
+/* ================= TEXT ================= */
+.addsupport_text {
+  line-height: 1.4;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 992px) {
+  .addsupport_list {
+    justify-content: center;
+    gap: 28px;
+  }
+}
+
+@media (max-width: 768px) {
+  .addsupport_container {
+    padding: 32px 26px;
+  }
+
+  .addsupport_title {
+    font-size: 20px;
+  }
+
+  .addsupport_item {
+    font-size: 14.5px;
+  }
+}
+
+@media (max-width: 576px) {
+  .addsupport {
+    padding: 55px 0;
+  }
+
+  .addsupport_list {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+}

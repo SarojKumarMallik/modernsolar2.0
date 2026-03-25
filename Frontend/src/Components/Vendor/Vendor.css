@@ -1,0 +1,232 @@
+/* ================= VENDOR SECTION ================= */
+
+.vendor {
+  padding: 70px 0;
+  background: #0f3d5e; /* Theme Primary Color */
+}
+
+/* Container */
+.vendor_container {
+  max-width: 1400px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+/* ================= HEADER ================= */
+
+.vendor_header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.vendor_title {
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 12px;
+  color: #ffffff; /* White Text */
+}
+
+.vendor_subtitle {
+  font-size: 16px;
+  color: #e2e8f0; /* Soft White */
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* ================= GRID ================= */
+
+.vendor_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+/* ================= BLOCK ================= */
+
+.vendor_block {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  transition: 0.3s ease;
+}
+
+.vendor_block:hover {
+  background: rgba(255, 255, 255, 0.12);
+  transform: translateY(-4px);
+}
+
+/* ================= BLOCK HEADER ================= */
+
+.block_header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 25px;
+}
+
+.block_icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  color: #0f3d5e; /* Icon background white, icon color theme */
+}
+
+.block_icon svg {
+  width: 24px;
+  height: 24px;
+}
+
+/* Title */
+.block_title_content h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 4px;
+}
+
+.block_title_content p {
+  font-size: 14px;
+  color: #cbd5e1;
+}
+
+/* ================= CARDS ================= */
+
+.vendor_cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+}
+
+/* Card */
+.vendor_card {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 14px;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.vendor_card:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/* ================= FINANCE CARD ================= */
+
+.finance_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.card_logo {
+  width: 44px;
+  height: 44px;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card_logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.finance_card span {
+  font-size: 13px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+/* ================= VENDOR TEXT CARD ================= */
+
+.vendor_card_text {
+  padding: 16px;
+}
+
+.vendor_acronym {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 4px;
+}
+
+.vendor_full_name {
+  font-size: 12px;
+  color: #cbd5e1;
+}
+
+/* ================= STATS ================= */
+
+.vendor_stats {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 35px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.stat_item {
+  text-align: center;
+}
+
+.stat_number {
+  font-size: 34px;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 6px;
+}
+
+.stat_label {
+  font-size: 14px;
+  color: #cbd5e1;
+  font-weight: 600;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 992px) {
+  .vendor_grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .vendor_cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .vendor_stats {
+    flex-direction: column;
+    gap: 25px;
+  }
+}
+
+@media (max-width: 576px) {
+  .vendor_cards {
+    grid-template-columns: 1fr;
+  }
+
+  .block_header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .stat_number {
+    font-size: 28px;
+  }
+}

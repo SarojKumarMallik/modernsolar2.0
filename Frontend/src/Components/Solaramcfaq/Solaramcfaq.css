@@ -1,0 +1,134 @@
+:root {
+  --Solaramcfaq-primary: #0f3d5e;
+  --Solaramcfaq-accent: #2e7fbf;
+  --Solaramcfaq-light-bg: #f8fbff;
+  --Solaramcfaq-border: #e6edf3;
+  --Solaramcfaq-text: #1e293b;
+  --Solaramcfaq-light: #64748b;
+  --Solaramcfaq-shadow: 0 15px 40px rgba(15, 61, 94, 0.08);
+}
+
+/* ===== SECTION ===== */
+
+.Solaramcfaq-section {
+  padding: 100px 20px;
+  background: #ffffff;
+  font-family: "Inter", sans-serif;
+}
+
+.Solaramcfaq-container {
+  max-width: 950px;
+  margin: auto;
+}
+
+/* ===== PREMIUM HEADING (Like Previous Section) ===== */
+
+.Solaramcfaq-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.Solaramcfaq-header h2 {
+  font-size: 42px;
+  font-weight: 700;
+  color: var(--Solaramcfaq-primary);
+}
+
+.Solaramcfaq-header h2 span {
+  background: linear-gradient(
+    135deg,
+    var(--Solaramcfaq-primary),
+    var(--Solaramcfaq-accent)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ===== FAQ ITEMS ===== */
+
+.Solaramcfaq-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.Solaramcfaq-item {
+  background: #ffffff;
+  border-radius: 14px;
+  border: 1px solid var(--Solaramcfaq-border);
+  overflow: hidden;
+  transition: 0.3s ease;
+  box-shadow: var(--Solaramcfaq-shadow);
+}
+
+.Solaramcfaq-item.active {
+  border-color: var(--Solaramcfaq-accent);
+}
+
+/* QUESTION */
+
+.Solaramcfaq-question {
+  width: 100%;
+  padding: 20px 24px;
+  background: #f1f5f9;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--Solaramcfaq-text);
+  cursor: pointer;
+  text-align: left;
+}
+
+.Solaramcfaq-icon {
+  transition: transform 0.4s ease;
+  font-size: 14px;
+  color: var(--Solaramcfaq-accent);
+}
+
+.Solaramcfaq-icon.rotate {
+  transform: rotate(45deg);
+}
+
+/* ANSWER */
+
+.Solaramcfaq-answer {
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+}
+
+.Solaramcfaq-answer-inner {
+  padding: 20px 24px;
+}
+
+.Solaramcfaq-answer p {
+  font-size: 15px;
+  color: var(--Solaramcfaq-light);
+  line-height: 1.8;
+}
+
+/* ===== RESPONSIVE ===== */
+
+@media (max-width: 768px) {
+  .Solaramcfaq-section {
+    padding: 70px 20px;
+  }
+
+  .Solaramcfaq-header {
+    text-align: left;
+  }
+
+  .Solaramcfaq-header h2 {
+    font-size: 26px;
+  }
+
+  .Solaramcfaq-question {
+    font-size: 14px;
+  }
+
+  .Solaramcfaq-answer p {
+    font-size: 14px;
+  }
+}

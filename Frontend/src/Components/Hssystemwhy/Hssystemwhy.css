@@ -1,0 +1,224 @@
+:root {
+  --bsp-primary: #0E3A5F;
+  --bsp-secondary: #1B5C8A;
+  --bsp-accent: #2E7FBF;
+  --text-dark: #0b2e46;
+  --text-light: #5f6f81;
+  --white: #ffffff;
+}
+
+/* ================= PREMIUM BACKGROUND ================= */
+
+.Hssystemwhy-wrapper {
+  padding: 50px 20px;
+  font-family: "Inter", sans-serif;
+  background:
+    radial-gradient(circle at 20% 30%, rgba(27, 92, 138, 0.15), transparent 40%),
+    radial-gradient(circle at 80% 70%, rgba(14, 58, 95, 0.15), transparent 40%),
+    linear-gradient(135deg, #0E3A5F 0%, #1B5C8A 50%, #2E7FBF 100%);
+}
+
+.Hssystemwhy-container {
+  max-width: 1300px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1.6fr;
+  gap: 90px;
+}
+
+/* ================= LEFT GLASS PANEL ================= */
+
+.Hssystemwhy-left {
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(20px);
+  padding: 40px;
+  border-radius: 28px;
+  border: 1px solid rgba(255,255,255,0.25);
+  box-shadow: 0 25px 60px rgba(0,0,0,0.2);
+}
+
+.Hssystemwhy-badge {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 8px 18px;
+  border-radius: 30px;
+  background: rgba(255,255,255,0.25);
+  color: white;
+  margin-bottom: 25px;
+}
+
+.Hssystemwhy-title {
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 35px;
+  color: white;
+}
+
+/* SERVICES */
+
+.Hssystemwhy-services {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.Hssystemwhy-service {
+  display: flex;
+  align-items: center;
+  padding: 18px 22px;
+  border-radius: 18px;
+  background: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.Hssystemwhy-service:hover {
+  transform: translateX(10px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+  border-color: var(--bsp-primary);
+}
+
+.Hssystemwhy-active {
+  background: linear-gradient(135deg, var(--bsp-primary), var(--bsp-secondary));
+  color: white !important;
+  box-shadow: 0 20px 45px rgba(0,0,0,0.25);
+}
+
+.Hssystemwhy-icon {
+  font-size: 20px;
+  color: var(--bsp-primary);
+}
+
+.Hssystemwhy-active .Hssystemwhy-icon {
+  color: white;
+}
+
+.Hssystemwhy-name {
+  flex: 1;
+  margin-left: 14px;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.Hssystemwhy-active .Hssystemwhy-name {
+  color: white;
+}
+
+.Hssystemwhy-arrow {
+  color: #94a3b8;
+}
+
+/* ================= RIGHT CONTENT ================= */
+
+.Hssystemwhy-main-title {
+  font-size: 42px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  color: white;
+  line-height: 1.2;
+}
+
+.Hssystemwhy-main-title span {
+  color: #d6ecff;
+}
+
+.Hssystemwhy-intro {
+  color: #e2e8f0;
+  margin-bottom: 50px;
+  font-size: 17px;
+}
+
+/* REASON CARDS */
+
+.Hssystemwhy-reasons {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.Hssystemwhy-reason {
+  display: flex;
+  gap: 22px;
+  padding: 28px;
+  border-radius: 22px;
+  background: rgba(255,255,255,0.95);
+  box-shadow: 0 20px 50px rgba(0,0,0,0.15);
+  transition: all 0.35s ease;
+}
+
+.Hssystemwhy-reason:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 30px 65px rgba(0,0,0,0.25);
+}
+
+.Hssystemwhy-reason-icon {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, var(--bsp-primary), var(--bsp-secondary));
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  flex-shrink: 0;
+}
+
+.Hssystemwhy-reason h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: var(--bsp-primary);
+}
+
+.Hssystemwhy-reason p {
+  font-size: 15px;
+  color: var(--text-light);
+  line-height: 1.7;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 992px) {
+  .Hssystemwhy-container {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .Hssystemwhy-left {
+    display: none;
+  }
+
+  .Hssystemwhy-main-title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .Hssystemwhy-wrapper {
+    padding: 70px 15px;
+  }
+
+  .Hssystemwhy-main-title {
+    font-size: 24px;
+  }
+
+  .Hssystemwhy-reason {
+    padding: 20px;
+  }
+
+  .Hssystemwhy-reason-icon {
+    width: 45px;
+    height: 45px;
+    font-size: 16px;
+  }
+
+  .Hssystemwhy-reason h4 {
+    font-size: 16px;
+  }
+
+  .Hssystemwhy-reason p {
+    font-size: 13px;
+  }
+}

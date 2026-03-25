@@ -1,0 +1,149 @@
+:root {
+  --bsp-primary: #0b2e46;
+  --bsp-secondary: #123c5a;
+  --bsp-accent: #2E7FBF;
+}
+
+/* ================= WRAPPER ================= */
+
+.Solaramcsolarpanels-wrapper {
+  padding: 100px 20px;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(135deg, #0b2e46 0%, #0e3753 100%);
+  color: white;
+}
+
+.Solaramcsolarpanels-container {
+  max-width: 1300px;
+  margin: auto;
+}
+
+/* ================= TITLES ================= */
+
+.Solaramcsolarpanels-title {
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.Solaramcsolarpanels-subtitle {
+  font-size: 17px;
+  color: #cbd5e1;
+  margin-bottom: 50px;
+  max-width: 800px;
+}
+
+/* ================= TABLE ================= */
+
+.Solaramcsolarpanels-table-wrapper {
+  border-radius: 20px;
+  overflow: hidden;
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(12px);
+}
+
+.Solaramcsolarpanels-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.Solaramcsolarpanels-table th,
+.Solaramcsolarpanels-table td {
+  padding: 18px;
+  text-align: left;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.Solaramcsolarpanels-table th {
+  font-weight: 800;
+  border-bottom: 1px solid rgba(255,255,255,0.15);
+}
+
+.Solaramcsolarpanels-table td {
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.Solaramcsolarpanels-table tr:hover {
+  background: rgba(255,255,255,0.05);
+}
+
+/* Highlight Solar AMC */
+
+.highlight-head {
+  color: #4ade80;
+}
+
+.highlight {
+  color: #4ade80;
+  font-weight: 600;
+}
+
+/* ================= MOBILE RESPONSIVE ================= */
+
+@media (max-width: 768px) {
+
+  .Solaramcsolarpanels-title {
+    font-size: 26px;
+  }
+
+  .Solaramcsolarpanels-subtitle {
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+
+  /* Convert table into stacked layout */
+
+  .Solaramcsolarpanels-table thead {
+    display: none;
+  }
+
+  .Solaramcsolarpanels-table,
+  .Solaramcsolarpanels-table tbody,
+  .Solaramcsolarpanels-table tr,
+  .Solaramcsolarpanels-table td {
+    display: block;
+    width: 100%;
+  }
+
+  .Solaramcsolarpanels-table tr {
+    margin-bottom: 25px;
+    background: rgba(255,255,255,0.05);
+    padding: 15px;
+    border-radius: 14px;
+  }
+
+  .Solaramcsolarpanels-table td {
+    border: none;
+    padding: 10px 0;
+    font-size: 14px;
+    position: relative;
+    padding-left: 120px;
+  }
+
+  .Solaramcsolarpanels-table td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    top: 10px;
+    font-weight: 700;
+    color: #94a3b8;
+    width: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  .Solaramcsolarpanels-wrapper {
+    padding: 70px 15px;
+  }
+
+  .Solaramcsolarpanels-title {
+    font-size: 22px;
+  }
+
+  .Solaramcsolarpanels-table td {
+    font-size: 13px;
+    padding-left: 100px;
+  }
+}

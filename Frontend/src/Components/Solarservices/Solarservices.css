@@ -1,0 +1,150 @@
+:root {
+  --bsp-primary: #0b2e46;
+  --bsp-accent: #2E7FBF;
+  --text-light: #5f6f81;
+  --white: #ffffff;
+}
+
+/* SECTION */
+.Solarservices {
+  padding: 80px 20px;
+  background: #f8fbff;
+}
+
+.Solarservices_container {
+  max-width: 1300px;
+  margin: auto;
+}
+
+/* HEADER */
+.Solarservices_header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.Solarservices_tag {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  color: var(--bsp-accent);
+}
+
+.Solarservices_title {
+  font-size: 40px;
+  font-weight: 800;
+  color: var(--bsp-primary);
+  margin: 10px 0;
+}
+
+.Solarservices_title span {
+  color: var(--bsp-accent);
+}
+
+.Solarservices_subtitle {
+  max-width: 700px;
+  margin: auto;
+  font-size: 16px;
+  color: var(--text-light);
+  line-height: 1.7;
+}
+
+/* GRID - ONE ROW */
+.Solarservices_grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+/* CARD */
+.Solarservices_card {
+  background: var(--white);
+  padding: 35px 25px;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.05);
+  transition: all 0.35s ease;
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  display: flex;
+  flex-direction: column;
+}
+
+.Solarservices_card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 25px 60px rgba(46, 127, 191, 0.18);
+}
+
+/* ICON */
+.Solarservices_iconWrap {
+  width: 60px;
+  height: 60px;
+  border-radius: 15px;
+  background: rgba(46, 127, 191, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.Solarservices_icon {
+  font-size: 26px;
+  color: var(--bsp-accent);
+}
+
+/* TEXT */
+.Solarservices_cardTitle {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--bsp-primary);
+  margin-bottom: 12px;
+}
+
+.Solarservices_cardDesc {
+  font-size: 14px;
+  color: var(--text-light);
+  line-height: 1.6;
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+
+/* BUTTON */
+.Solarservices_btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--bsp-accent);
+  transition: 0.3s ease;
+}
+
+.Solarservices_btn svg {
+  transition: 0.3s ease;
+}
+
+.Solarservices_btn:hover {
+  color: var(--bsp-primary);
+}
+
+.Solarservices_btn:hover svg {
+  transform: translateX(5px);
+}
+
+/* RESPONSIVE */
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .Solarservices_grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .Solarservices_grid {
+    grid-template-columns: 1fr;
+  }
+
+  .Solarservices_title {
+    font-size: 28px;
+  }
+}

@@ -1,0 +1,171 @@
+:root {
+  --bsp-primary: #0b2e46;
+  --bsp-secondary: #0b2e46;
+  --bsp-accent: #2E7FBF;
+  --white: #ffffff;
+}
+
+/* ================= WRAPPER ================= */
+
+.Ourserviceswhy-wrapper {
+  padding: 80px 20px;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(135deg, #0b2e46 0%, #0b2e46 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Glow effect */
+.Ourserviceswhy-wrapper::before {
+  content: "";
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(255,255,255,0.08), transparent 70%);
+  top: -200px;
+  right: -200px;
+}
+
+.Ourserviceswhy-container {
+  max-width: 1350px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1.7fr;
+  gap: 100px;
+}
+
+/* ================= LEFT PANEL ================= */
+
+.Ourserviceswhy-left {
+  background: rgba(255,255,255,0.08);
+  backdrop-filter: blur(20px);
+  padding: 40px;
+  border-radius: 25px;
+  border: 1px solid rgba(255,255,255,0.2);
+}
+
+.Ourserviceswhy-title {
+  font-size: 28px;
+  font-weight: 800;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.Ourserviceswhy-services {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.Ourserviceswhy-service {
+  display: flex;
+  align-items: center;
+  padding: 16px 22px;
+  border-radius: 16px;
+  background: white;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.Ourserviceswhy-service:hover {
+  transform: translateX(10px);
+}
+
+.Ourserviceswhy-active {
+  background: linear-gradient(135deg, var(--bsp-primary), var(--bsp-secondary));
+  color: white !important;
+}
+
+.Ourserviceswhy-icon {
+  font-size: 20px;
+  color: var(--bsp-primary);
+}
+
+.Ourserviceswhy-active .Ourserviceswhy-icon {
+  color: white;
+}
+
+.Ourserviceswhy-name {
+  flex: 1;
+  margin-left: 15px;
+  font-weight: 700;
+  color: #0b2e46;
+}
+
+.Ourserviceswhy-active .Ourserviceswhy-name {
+  color: white;
+}
+
+.Ourserviceswhy-arrow {
+  opacity: 0.6;
+}
+
+/* ================= RIGHT CONTENT ================= */
+
+.Ourserviceswhy-main-title {
+  font-size: 42px;
+  font-weight: 900;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.Ourserviceswhy-main-title span {
+  color: #d6ecff;
+}
+
+.Ourserviceswhy-intro {
+  color: #e2e8f0;
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+
+.Ourserviceswhy-reasons {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.Ourserviceswhy-reason {
+  display: flex;
+  gap: 15px;
+}
+
+.Ourserviceswhy-check {
+  color: #22c55e;
+  font-size: 20px;
+  margin-top: 6px;
+}
+
+.Ourserviceswhy-reason h4 {
+  color: white;
+  margin-bottom: 6px;
+  font-size: 18px;
+}
+
+.Ourserviceswhy-reason p {
+  color: #cbd5e1;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 992px) {
+  .Ourserviceswhy-container {
+    grid-template-columns: 1fr;
+  }
+
+  .Ourserviceswhy-main-title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .Ourserviceswhy-main-title {
+    font-size: 22px;
+  }
+
+  .Ourserviceswhy-left {
+    display: none;
+  }
+}

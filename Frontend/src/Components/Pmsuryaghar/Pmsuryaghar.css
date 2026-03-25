@@ -1,0 +1,220 @@
+:root {
+  --bsp-primary: #0b2e46;
+  --bsp-secondary: #123c5a;
+  --bsp-accent: #2E7FBF;
+  --white: #ffffff;
+  --light-white: #e2e8f0;
+}
+
+/* ================= PM SURYA GHAR ================= */
+.pmsuryaghar {
+  padding: 80px 0;
+  background: linear-gradient(135deg, var(--bsp-primary), var(--bsp-secondary));
+  position: relative;
+  overflow: hidden;
+}
+
+.pmsuryaghar-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* HEADER */
+.pmsuryaghar-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.gov-badge {
+  display: inline-block;
+  padding: 8px 22px;
+  background: linear-gradient(135deg, var(--bsp-accent), #1e90ff);
+  color: #fff;
+  border-radius: 50px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 22px;
+}
+
+.pmsuryaghar-title {
+  font-size: clamp(34px, 5vw, 46px);
+  font-weight: 800;
+  color: var(--white);
+  margin-bottom: 16px;
+}
+
+.highlight {
+  background: linear-gradient(90deg, #fbbf24, #f59e0b);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.pmsuryaghar-description {
+  font-size: 16px;
+  color: var(--light-white);
+  max-width: 720px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+/* CONTENT GRID */
+.pmsuryaghar-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  align-items: stretch;
+}
+
+/* IMAGE SIDE */
+.pmsuryaghar-image {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-wrapper {
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.image-wrapper img {
+  width: 100%;
+  min-height: 320px;
+  object-fit: cover;
+}
+
+/* ===== PREMIUM SUBSIDY STATS ===== */
+.subsidy-stats {
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.stat-card {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 18px;
+  padding: 22px 18px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  transition: 0.35s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
+}
+
+.stat-icon {
+  width: 46px;
+  height: 46px;
+  margin: 0 auto 12px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  background: linear-gradient(135deg, var(--bsp-accent), #1e90ff);
+  color: #ffffff;
+}
+
+.stat-value {
+  font-size: 26px;
+  font-weight: 800;
+  color: var(--white);
+  margin-bottom: 6px;
+}
+
+.stat-label {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--light-white);
+  letter-spacing: 1.3px;
+}
+
+/* BENEFITS */
+.pmsuryaghar-benefits {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 36px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.35);
+  display: flex;
+  flex-direction: column;
+}
+
+.benefits-header {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 26px;
+  color: var(--white);
+}
+
+.benefits-icon {
+  font-size: 36px;
+  background: linear-gradient(135deg, var(--bsp-accent), #1e90ff);
+  padding: 12px;
+  border-radius: 14px;
+  color: #fff;
+}
+
+.benefit {
+  display: flex;
+  gap: 14px;
+  padding: 16px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  margin-bottom: 12px;
+  color: var(--light-white);
+}
+
+.benefit-check {
+  width: 26px;
+  height: 26px;
+  background: var(--bsp-accent);
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.eligibility-btn {
+  margin-top: auto;
+  padding: 16px;
+  font-size: 16px;
+  font-weight: 600;
+  background: linear-gradient(135deg, var(--bsp-accent), #1e90ff);
+  border-radius: 12px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.eligibility-btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+/* RESPONSIVE */
+@media (max-width: 992px) {
+  .pmsuryaghar-content {
+    grid-template-columns: 1fr;
+  }
+
+  .subsidy-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .subsidy-stats {
+    grid-template-columns: 1fr;
+  }
+}

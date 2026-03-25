@@ -1,0 +1,136 @@
+:root {
+  --primary: #0f3d5e;
+  --accent: #2e7fbf;
+  --text-dark: #1e293b;
+  --text-light: #64748b;
+  --border: #e6edf3;
+}
+
+/* SECTION */
+.Residentialhome-section-wrapper {
+  padding: 50px 20px;
+  background: #ffffff;
+  font-family: "Inter", sans-serif;
+}
+
+.Residentialhome-container {
+  max-width: 1300px;
+  margin: auto;
+}
+
+/* HEADER (Same Style as Previous Sections) */
+.Residentialhome-header {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.Residentialhome-label {
+  color: var(--accent);
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.Residentialhome-heading {
+  font-size: 40px;
+  margin: 15px 0;
+}
+
+.Residentialhome-heading span {
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Residentialhome-description {
+  color: var(--text-light);
+  max-width: 750px;
+  margin: auto;
+  line-height: 1.6;
+}
+
+/* BLOCK */
+.Residentialhome-block {
+  margin-bottom: 90px;
+}
+
+.Residentialhome-block h3 {
+  font-size: 26px;
+  color: var(--primary);
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* GRID */
+.Residentialhome-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+/* CARD */
+.Residentialhome-card {
+  background: #ffffff;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 25px;
+  box-shadow: 0 15px 40px rgba(15, 61, 94, 0.08);
+  transition: 0.35s ease;
+}
+
+.Residentialhome-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 25px 60px rgba(15, 61, 94, 0.15);
+}
+
+.Residentialhome-card h4 {
+  color: var(--accent);
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.Residentialhome-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.Residentialhome-card li {
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: var(--text-dark);
+}
+
+.Residentialhome-card li strong {
+  color: var(--primary);
+}
+
+/* HYBRID TEXT */
+.Residentialhome-hybrid-text {
+  text-align: center;
+  max-width: 700px;
+  margin: auto;
+  color: var(--text-light);
+  line-height: 1.6;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1100px) {
+  .Residentialhome-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .Residentialhome-heading {
+    font-size: 30px;
+  }
+
+  .Residentialhome-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .Residentialhome-block h3 {
+    font-size: 22px;
+  }
+}

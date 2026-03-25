@@ -1,0 +1,147 @@
+:root {
+  --bsp-primary: #0f3d5e;
+  --bsp-accent: #1e88e5;
+  --bsp-dark: #0a2a44;
+  --bsp-glass: rgba(255, 255, 255, 0.08);
+  --bsp-light-text-white: #ebeef3;
+}
+
+/* SECTION */
+
+.Offgridsystemfaq-section {
+  padding: 50px 20px;
+  background: linear-gradient(135deg, #0f3d5e, #0a2a44);
+  font-family: "Inter", sans-serif;
+  position: relative;
+  overflow: hidden;
+}
+
+/* subtle background glow */
+.Offgridsystemfaq-section::before {
+  content: "";
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(30,136,229,0.25), transparent);
+  top: -200px;
+  right: -200px;
+  border-radius: 50%;
+}
+
+.Offgridsystemfaq-container {
+  max-width: 900px;
+  margin: auto;
+  position: relative;
+  z-index: 2;
+}
+
+/* HEADER */
+
+.Offgridsystemfaq-header {
+  text-align: center;
+  margin-bottom: 80px;
+  color: white;
+}
+
+.Offgridsystemfaq-header h2 {
+  font-size: 44px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.Offgridsystemfaq-header h2 span {
+  background: linear-gradient(90deg, #1e88e5, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Offgridsystemfaq-header p {
+  color: var(--bsp-light-text-white);
+  max-width: 600px;
+  margin: auto;
+  font-size: 16px;
+}
+
+/* FAQ ITEM */
+
+.Offgridsystemfaq-item {
+  background: var(--bsp-glass);
+  backdrop-filter: blur(18px);
+  border-radius: 20px;
+  margin-bottom: 25px;
+  border: 1px solid rgba(255,255,255,0.1);
+  transition: 0.4s ease;
+  overflow: hidden;
+}
+
+.Offgridsystemfaq-item:hover {
+  border-color: rgba(30,136,229,0.6);
+  box-shadow: 0 15px 50px rgba(30,136,229,0.15);
+}
+
+/* QUESTION */
+
+.Offgridsystemfaq-question {
+  width: 100%;
+  background: none;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 25px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  text-align: left;
+}
+
+.Offgridsystemfaq-question h4 {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+/* ICON */
+
+.Offgridsystemfaq-icon {
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(135deg, #1e88e5, #0f3d5e);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.4s ease;
+}
+
+.Offgridsystemfaq-item.active .Offgridsystemfaq-icon {
+  transform: rotate(45deg);
+}
+
+/* ANSWER */
+
+.Offgridsystemfaq-answer {
+  overflow: hidden;
+  transition: max-height 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.Offgridsystemfaq-answer-inner {
+  padding: 0 30px 25px 30px;
+}
+
+.Offgridsystemfaq-answer p {
+  color: var(--bsp-light-text-white);
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+  .Offgridsystemfaq-header h2 {
+    font-size: 30px;
+  }
+
+  .Offgridsystemfaq-question h4 {
+    font-size: 15px;
+  }
+}

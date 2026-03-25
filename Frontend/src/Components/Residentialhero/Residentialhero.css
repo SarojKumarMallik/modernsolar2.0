@@ -1,0 +1,144 @@
+:root {
+  --primary: #0f3d5e;
+  --primary-dark: #0b2e46;
+  --accent: #2e7fbf;
+  --text-dark: #1e293b;
+  --text-light: #64748b;
+  --white: #ffffff;
+  --shadow-sm: 0 10px 30px rgba(15, 61, 94, 0.08);
+  --shadow-lg: 0 25px 60px rgba(15, 61, 94, 0.15);
+  --transition: all 0.35s ease;
+}
+
+/* ===== SECTION ===== */
+
+.Residentialhero-section {
+  padding: 50px 20px;
+  background: var(--white);
+  font-family: "Inter", sans-serif;
+}
+
+.Residentialhero-container {
+  max-width: 1300px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 70px;
+}
+
+/* ===== LEFT CONTENT ===== */
+
+.Residentialhero-content {
+  max-width: 600px;
+}
+
+.Residentialhero-title {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--primary-dark);
+  margin-bottom: 25px;
+}
+
+.Residentialhero-title span {
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Residentialhero-text {
+  font-size: 16px;
+  color: var(--text-light);
+  line-height: 1.8;
+  margin-bottom: 18px;
+}
+
+/* ===== BUTTON ===== */
+
+.Residentialhero-btn-wrapper {
+  margin-top: 30px;
+}
+
+.Residentialhero-btn {
+  display: inline-block;
+  padding: 14px 32px;
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  color: var(--white);
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: var(--transition);
+  box-shadow: var(--shadow-sm);
+}
+
+.Residentialhero-btn:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+/* ===== IMAGE ===== */
+
+.Residentialhero-image {
+  text-align: center;
+}
+
+.Residentialhero-image img {
+  width: 100%;
+  max-width: 550px;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+/* ===== RESPONSIVE ===== */
+
+@media (max-width: 1200px) {
+  .Residentialhero-title {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 992px) {
+  .Residentialhero-container {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .Residentialhero-content {
+    max-width: 100%;
+  }
+
+  .Residentialhero-title {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Residentialhero-section {
+    padding: 70px 20px;
+  }
+
+  .Residentialhero-title {
+    font-size: 28px;
+  }
+
+  .Residentialhero-text {
+    font-size: 15px;
+  }
+
+  .Residentialhero-content {
+    text-align: left;
+  }
+}
+
+@media (max-width: 480px) {
+  .Residentialhero-title {
+    font-size: 24px;
+  }
+
+  .Residentialhero-btn {
+    width: 100%;
+    text-align: center;
+  }
+}

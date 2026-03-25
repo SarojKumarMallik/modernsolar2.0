@@ -1,0 +1,191 @@
+:root {
+  --solar-primary: #0f3d5e;
+  --solar-accent: #2e7fbf;
+  --solar-light: #eaf4ff;
+  --solar-success: #22c55e;
+  --solar-danger: #ef4444;
+  --solar-text: #ffffff;
+}
+
+/* ================= SECTION ================= */
+
+.Commercialsolarsystem-wrapper {
+  padding: 50px 20px;
+  background: linear-gradient(135deg, #0f3d5e, #123c5a, #1e4f73);
+  font-family: "Inter", sans-serif;
+  position: relative;
+  overflow: hidden;
+}
+
+.Commercialsolarsystem-wrapper::before {
+  content: "";
+  position: absolute;
+  top: -200px;
+  right: -200px;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(46,127,191,0.3), transparent 70%);
+  border-radius: 50%;
+}
+
+/* ================= CONTAINER ================= */
+
+.Commercialsolarsystem-container {
+  max-width: 1200px;
+  margin: auto;
+  position: relative;
+  z-index: 2;
+}
+
+/* ================= HEADER ================= */
+
+.Commercialsolarsystem-header {
+  text-align: center;
+  margin-bottom: 70px;
+  color: var(--solar-text);
+}
+
+.Commercialsolarsystem-badge {
+  display: inline-block;
+  padding: 7px 20px;
+  border-radius: 30px;
+  background: rgba(255,255,255,0.15);
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin-bottom: 18px;
+}
+
+.Commercialsolarsystem-header h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.Commercialsolarsystem-header h2 span {
+  background: linear-gradient(135deg, #ffffff, #2e7fbf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Commercialsolarsystem-header p {
+  max-width: 680px;
+  margin: auto;
+  color: #cbd5e1;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* ================= TABLE ================= */
+
+.Commercialsolarsystem-table-wrapper {
+  border-radius: 20px;
+  
+  backdrop-filter: blur(15px);
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.15);
+  box-shadow: 0 25px 60px rgba(0,0,0,0.2);
+}
+
+.Commercialsolarsystem-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 700px;
+  color: white;
+}
+
+.Commercialsolarsystem-table thead {
+  background: rgba(255,255,255,0.15);
+}
+
+.Commercialsolarsystem-table th {
+  padding: 22px;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.Commercialsolarsystem-table td {
+  padding: 20px 22px;
+  border-bottom: 1px solid rgba(255,255,255,0.15);
+  transition: 0.3s ease;
+}
+
+
+
+.Commercialsolarsystem-component {
+  font-weight: 600;
+}
+
+/* ================= ICONS ================= */
+
+.Commercialsolarsystem-icon-cell {
+  text-align: center;
+}
+
+.Commercialsolarsystem-check {
+  color: var(--solar-success);
+  font-size: 22px;
+  transition: 0.3s ease;
+}
+
+.Commercialsolarsystem-cross {
+  color: var(--solar-danger);
+  font-size: 22px;
+  opacity: 0.85;
+  transition: 0.3s ease;
+}
+
+.Commercialsolarsystem-table tbody tr:hover 
+.Commercialsolarsystem-check,
+.Commercialsolarsystem-table tbody tr:hover 
+.Commercialsolarsystem-cross {
+  transform: scale(1.2);
+}
+
+/* ================= NOTE ================= */
+
+.Commercialsolarsystem-note {
+  margin-top: 30px;
+  font-size: 14px;
+  color: #cbd5e1;
+  text-align: center;
+  line-height: 1.6;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 992px) {
+  .Commercialsolarsystem-header h2 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Commercialsolarsystem-wrapper {
+    padding: 80px 15px;
+  }
+
+  .Commercialsolarsystem-header h2 {
+    font-size: 24px;
+  }
+
+  .Commercialsolarsystem-header p {
+    font-size: 14px;
+  }
+
+  .Commercialsolarsystem-table {
+    min-width: 600px;
+  }
+}
+
+@media (max-width: 480px) {
+  .Commercialsolarsystem-header h2 {
+    font-size: 20px;
+  }
+
+  .Commercialsolarsystem-table th,
+  .Commercialsolarsystem-table td {
+    padding: 14px;
+    font-size: 12px;
+  }
+}

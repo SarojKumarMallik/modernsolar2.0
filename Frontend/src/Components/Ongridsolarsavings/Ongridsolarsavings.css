@@ -1,0 +1,150 @@
+:root {
+  --bsp-primary: #0E3A5F;
+  --bsp-secondary: #1B5C8A;
+  --bsp-accent: #2E7D32;
+  --text-dark: #1e293b;
+  --text-light: #64748b;
+  --white: #ffffff;
+}
+
+/* SECTION */
+.solar-savings-section {
+  background: #ffffff;
+  padding: 100px 20px;
+  font-family: "Inter", sans-serif;
+}
+
+.solar-container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+.solar-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.section-badge {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  color: var(--bsp-primary);
+  padding: 8px 20px;
+  background: rgba(14,58,95,0.08);
+  border-radius: 40px;
+  display: inline-block;
+}
+
+.solar-heading {
+  font-size: 42px;
+  font-weight: 800;
+  color: var(--text-dark);
+  margin: 20px 0;
+}
+
+.heading-gradient {
+  background: linear-gradient(90deg, var(--bsp-primary), var(--bsp-secondary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.solar-subtext {
+  font-size: 18px;
+  color: var(--text-light);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.divider-line {
+  width: 80px;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--bsp-primary), transparent);
+}
+
+/* TABLE */
+.table-wrapper {
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 0 25px 50px -12px rgba(14,58,95,0.15);
+  border: 1px solid rgba(226,232,240,0.6);
+  margin-bottom: 30px;
+  overflow-x: auto;
+}
+
+.solar-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.solar-table th {
+  background: linear-gradient(135deg, var(--bsp-primary), var(--bsp-secondary));
+  color: white;
+  padding: 20px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.solar-table td {
+  padding: 18px;
+  border-bottom: 1px solid rgba(226,232,240,0.6);
+  font-size: 15px;
+  color: var(--text-dark);
+  text-align: center;
+}
+
+.solar-table tbody tr:hover {
+  background: rgba(14,58,95,0.05);
+}
+
+.capacity-cell { font-weight: 700; }
+.cost-range { font-weight: 500; color: var(--bsp-primary); }
+.savings-cell { font-weight: 600; color: #059669; }
+.lifetime-cell { font-weight: 700; }
+
+/* NOTE */
+.solar-note-wrapper {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 20px 25px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border: 1px solid rgba(14,58,95,0.15);
+  flex-wrap: wrap;
+}
+
+.note-icon {
+  font-size: 24px;
+  background: linear-gradient(135deg, var(--bsp-primary), var(--bsp-secondary));
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.solar-note {
+  font-size: 15px;
+  color: var(--text-light);
+}
+
+/* RESPONSIVE */
+@media (max-width: 992px) {
+  .solar-heading { font-size: 30px; }
+  .solar-subtext { font-size: 16px; }
+}
+
+@media (max-width: 768px) {
+  .solar-heading { font-size: 26px; }
+  .solar-subtext { font-size: 14px; }
+  .solar-note-wrapper { flex-direction: column; text-align: center; }
+}
+
+@media (max-width: 480px) {
+  .solar-heading { font-size: 22px; }
+  .solar-table th,
+  .solar-table td { font-size: 12px; padding: 10px; }
+}

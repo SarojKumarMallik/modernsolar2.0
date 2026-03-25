@@ -1,0 +1,132 @@
+:root {
+  --primary: #0f3d5e;
+  --accent: #2e7fbf;
+  --light-bg: #f4f8fb;
+  --white: #ffffff;
+}
+
+/* SECTION */
+.premium-faq-section {
+  padding: 120px 20px;
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  font-family: "Inter", sans-serif;
+  color: var(--white);
+}
+
+/* CONTAINER */
+.premium-faq-container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* HEADER */
+.premium-faq-header {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.premium-faq-label {
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  opacity: 0.9;
+}
+
+.premium-faq-header h2 {
+  font-size: 40px;
+  margin-top: 15px;
+}
+
+.premium-faq-header h2 span {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* FAQ ITEMS */
+.premium-faq-item {
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(15px);
+  border-radius: 12px;
+  margin-bottom: 18px;
+  overflow: hidden;
+  transition: 0.4s ease;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.premium-faq-item:hover {
+  background: rgba(255, 255, 255, 0.18);
+}
+
+/* QUESTION */
+.premium-faq-question {
+  padding: 20px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.premium-faq-question h4 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* ICON */
+.premium-faq-icon {
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+
+/* ANSWER */
+.premium-faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.4s ease;
+}
+
+.premium-faq-answer p {
+  padding: 0 25px 20px;
+  font-size: 14px;
+  line-height: 1.7;
+  opacity: 0.95;
+}
+
+/* ACTIVE */
+.premium-faq-item.active .premium-faq-answer {
+  max-height: 500px;
+}
+
+/* RESPONSIVE */
+
+/* Tablet */
+@media (max-width: 992px) {
+  .premium-faq-header h2 {
+    font-size: 30px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .premium-faq-section {
+    padding: 80px 15px;
+  }
+
+  .premium-faq-header h2 {
+    font-size: 24px;
+  }
+
+  .premium-faq-question h4 {
+    font-size: 14px;
+  }
+
+  .premium-faq-answer p {
+    font-size: 13px;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  .premium-faq-header h2 {
+    font-size: 20px;
+  }
+}

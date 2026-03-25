@@ -1,0 +1,180 @@
+:root {
+  --bsp-primary: #0f3d5e;
+  --bsp-accent: #1e88e5;
+  --bsp-light-text: #64748b;
+  --bsp-border: #e8eef5;
+}
+
+/* SECTION */
+
+.Offgridinstallationprocessbsp-section {
+  padding: 50px 20px;
+  background: linear-gradient(180deg, #ffffff 0%, #f5f9ff 100%);
+  font-family: "Inter", sans-serif;
+  overflow: hidden;
+}
+
+.Offgridinstallationprocessbsp-container {
+  max-width: 1300px;
+  margin: auto;
+}
+
+/* HEADER */
+
+.Offgridinstallationprocessbsp-header {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.Offgridinstallationprocessbsp-badge {
+  display: inline-block;
+  padding: 8px 22px;
+  border-radius: 40px;
+  background: rgba(30, 136, 229, 0.1);
+  color: var(--bsp-accent);
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 12px;
+  margin-bottom: 25px;
+}
+
+.Offgridinstallationprocessbsp-header h2 {
+  font-size: 42px;
+  font-weight: 700;
+  color: var(--bsp-primary);
+  margin-bottom: 20px;
+}
+
+.Offgridinstallationprocessbsp-header h2 span {
+  background: linear-gradient(90deg, #0f3d5e, #1e88e5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Offgridinstallationprocessbsp-header p {
+  max-width: 750px;
+  margin: auto;
+  color: var(--bsp-light-text);
+  font-size: 16px;
+}
+
+/* TIMELINE */
+
+.Offgridinstallationprocessbsp-timeline {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.Offgridinstallationprocessbsp-line {
+  position: absolute;
+  top: 90px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(
+    90deg,
+    rgba(15,61,94,0.2),
+    var(--bsp-accent),
+    rgba(15,61,94,0.2)
+  );
+  z-index: 0;
+}
+
+/* STEP */
+
+.Offgridinstallationprocessbsp-step {
+  width: 25%;
+  position: relative;
+  z-index: 2;
+}
+
+/* CARD */
+
+.Offgridinstallationprocessbsp-card {
+  background: rgba(255,255,255,0.8);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 40px 25px;
+  border: 1px solid var(--bsp-border);
+  box-shadow: 0 15px 40px rgba(15, 61, 94, 0.08);
+  text-align: center;
+  transition: 0.4s ease;
+}
+
+.Offgridinstallationprocessbsp-card:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 25px 60px rgba(30, 136, 229, 0.2);
+}
+
+/* ICON */
+
+.Offgridinstallationprocessbsp-icon {
+  width: 80px;
+  height: 80px;
+  margin: auto;
+  margin-bottom: 25px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #1e88e5, #0f3d5e);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 26px;
+  box-shadow: 0 10px 30px rgba(30,136,229,0.4);
+  transition: 0.4s ease;
+}
+
+.Offgridinstallationprocessbsp-card:hover .Offgridinstallationprocessbsp-icon {
+  transform: scale(1.1) rotate(8deg);
+}
+
+/* TEXT */
+
+.Offgridinstallationprocessbsp-card h3 {
+  font-size: 18px;
+  color: var(--bsp-primary);
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
+
+.Offgridinstallationprocessbsp-card h3 span {
+  color: var(--bsp-accent);
+  font-weight: 700;
+}
+
+.Offgridinstallationprocessbsp-card p {
+  font-size: 14px;
+  color: var(--bsp-light-text);
+  line-height: 1.7;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1100px) {
+
+  .Offgridinstallationprocessbsp-timeline {
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .Offgridinstallationprocessbsp-line {
+    display: none;
+  }
+
+  .Offgridinstallationprocessbsp-step {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .Offgridinstallationprocessbsp-header h2 {
+    font-size: 26px;
+  }
+
+  .Offgridinstallationprocessbsp-card {
+    padding: 30px 20px;
+  }
+}
