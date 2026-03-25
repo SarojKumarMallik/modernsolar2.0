@@ -123,7 +123,7 @@ const Footer = () => {
 
                   <p>
                     <a
-                      href="tel:+918018970154"
+                      href="tel:+91 9776835415"
                       style={{ textDecoration: "none", color: "inherit" }}
                     >
                       <FaPhone
@@ -133,7 +133,7 @@ const Footer = () => {
                           marginRight: "6px",
                         }}
                       />
-                      +91  8018970154
+                      +91   9776835415
                     </a>
                   </p>
                   <p>

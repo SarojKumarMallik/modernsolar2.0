@@ -49,7 +49,7 @@ const Offgridsystemwhychoosebsp = () => {
 
         <div className="Offgridsystemwhychoosebsp-header">
           <span className="Offgridsystemwhychoosebsp-badge">
-            WHY CHOOSE BSP
+            Why Choose Modern Solar 2.0
           </span>
 
           <h2>

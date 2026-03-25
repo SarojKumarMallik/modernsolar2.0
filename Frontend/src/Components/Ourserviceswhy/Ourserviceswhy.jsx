@@ -50,7 +50,7 @@ const Ourserviceswhy = () => {
   const reasons = [
   {
     title: "Transparent On-Grid Solar Quotation",
-    desc: "At BSP Product Solutions, we provide a detailed and transparent on-grid solar quotation before installation. You receive complete clarity on system cost, solar panel specifications, inverter details, warranty coverage, and expected savings — so you can make an informed investment decision."
+    desc: "At , we provide a detailed and transparent on-grid solar quotation before installation. You receive complete clarity on system cost, solar panel specifications, inverter details, warranty coverage, and expected savings — so you can make an informed investment decision."
   },
   {
     title: "Experienced & Certified Installation Partners",

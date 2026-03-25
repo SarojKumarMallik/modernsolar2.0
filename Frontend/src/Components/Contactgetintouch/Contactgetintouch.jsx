@@ -118,6 +118,15 @@ const Contactgetintouch = () => {
                 <a href="tel:9776835415">+91 9776835415</a>
               </div>
             </div>
+            <div className="Contactgetintouch-info-card">
+              <div className="Contactgetintouch-icon">
+                <FaPhoneAlt />
+              </div>
+              <div>
+                <p>Call Us</p>
+                <a href="tel:8763798078">+91 8763798078</a>
+              </div>
+            </div>
 
             <div className="Contactgetintouch-info-card">
               <div className="Contactgetintouch-icon">

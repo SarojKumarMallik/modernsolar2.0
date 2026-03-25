@@ -12,7 +12,7 @@ const Residentialhomesolarinstallers = () => {
           <span className="InstallersLR-label">WHY CHOOSE US</span>
 
           <h2>
-            How Rana Solar Power Is <span>Different</span> From
+            How Modern Solar 2.0 Power Is Different From
             Traditional Home Solar Installers?
           </h2>
 

@@ -14,13 +14,13 @@ const Howtoinstall = () => {
     icon: <FaFileInvoice />,
     title: "Request Your On-Grid Solar Quotation",
     description:
-      "Start your solar journey with BSP Product Solutions by clicking on 'Get Quote' and submitting your details. Share your name, contact number, location, and monthly electricity consumption. Our team reviews your requirement and prepares a customized on-grid solar system quotation tailored to your energy needs."
+      "Start your solar journey with Modern Solar 2.0 by clicking on 'Get Quote' and submitting your details. Share your name, contact number, location, and monthly electricity consumption. Our team reviews your requirement and prepares a customized on-grid solar system quotation tailored to your energy needs."
   },
   {
     icon: <FaUserTie />,
     title: "Consult With Our Solar Energy Expert",
     description:
-      "Our experienced energy advisor from BSP Product Solutions will connect with you to understand your power usage and answer all your questions related to rooftop solar installation, net metering, system capacity, and government subsidy. You can also schedule a site visit during this discussion."
+      "Our experienced energy advisor from Modern Solar 2.0 will connect with you to understand your power usage and answer all your questions related to rooftop solar installation, net metering, system capacity, and government subsidy. You can also schedule a site visit during this discussion."
   },
   {
     icon: <FaMapMarkedAlt />,

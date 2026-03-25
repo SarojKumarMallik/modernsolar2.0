@@ -14,7 +14,7 @@ const Ongridherosection = () => {
           </h1>
 
           <p className="ongrid-description">
-            At <strong>BSP Product Solutions</strong>, we deliver end-to-end
+            At <strong>Modern Solar 2.0</strong>, we deliver end-to-end
             on-grid solar system installation across India as per MNRE
             standards. Get your grid-connected solar power system installed at
             an affordable cost and cut down up to 95% of your monthly

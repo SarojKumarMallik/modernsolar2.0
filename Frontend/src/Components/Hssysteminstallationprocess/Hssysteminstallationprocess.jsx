@@ -36,7 +36,7 @@ const Hssysteminstallationprocess = () => {
 
         {/* HEADER */}
         <div className="bsp-header">
-          <span className="bsp-badge">BSP INSTALLATION PROCESS</span>
+          <span className="bsp-badge">Modern Solar 2.0 Installation Process</span>
           <h2>
             Hybrid Solar Installation <span>Process Flow</span>
           </h2>

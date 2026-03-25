@@ -13,11 +13,11 @@ const Ongridfaq = () => {
   {
     question: "Which solar company is best for on-grid solar installation?",
     answer:
-      "BSP Product Solutions is a trusted solar company offering MNRE-approved on-grid solar system installation across India. We provide high-quality solar panels, professional installation, net metering support, and transparent pricing for residential and commercial projects."
+      "Modern Solar 2.0 is a trusted solar company offering MNRE-approved on-grid solar system installation across India. We provide high-quality solar panels, professional installation, net metering support, and transparent pricing for residential and commercial projects."
   },
   {
     question:
-      "How can I connect with BSP Product Solutions for on-grid solar installation?",
+      "How can I connect with Modern Solar 2.0 for on-grid solar installation?",
     answer:
       "You can click on the 'Get Quote' button and submit your details. Our solar energy advisor will contact you to understand your electricity consumption, suggest the right system capacity, and guide you through the complete on-grid solar installation process."
   },
@@ -25,13 +25,13 @@ const Ongridfaq = () => {
     question:
       "What types of solar panels are available for on-grid solar installation?",
     answer:
-      "BSP Product Solutions offers high-efficiency Mono PERC, Bifacial, and Tier-1 solar panels with long-term performance warranties. Our experts recommend the best panel type based on your rooftop space, budget, and energy requirements."
+      "Modern Solar 2.0 offers high-efficiency Mono PERC, Bifacial, and Tier-1 solar panels with long-term performance warranties. Our experts recommend the best panel type based on your rooftop space, budget, and energy requirements."
   },
   {
     question:
       "Are there government subsidies available for installing an on-grid solar system in India?",
     answer:
-      "Yes, the Government of India provides financial assistance under the PM Surya Ghar Yojana scheme for eligible residential consumers. BSP Product Solutions assists customers with subsidy documentation and net metering approval."
+      "Yes, the Government of India provides financial assistance under the PM Surya Ghar Yojana scheme for eligible residential consumers. Modern Solar 2.0 assists customers with subsidy documentation and net metering approval."
   },
   {
     question: "Can I use an on-grid solar system during power outages?",
@@ -57,7 +57,7 @@ const Ongridfaq = () => {
   {
     question: "How much does an on-grid solar system cost in India?",
     answer:
-      "The cost of an on-grid solar system depends on system size (kW), panel type, inverter quality, and installation requirements. Contact BSP Product Solutions for a customized quotation and accurate price estimate."
+      "The cost of an on-grid solar system depends on system size (kW), panel type, inverter quality, and installation requirements. Contact Modern Solar 2.0 for a customized quotation and accurate price estimate."
   }
 ];
 

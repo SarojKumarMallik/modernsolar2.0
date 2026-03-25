@@ -13,17 +13,17 @@ const Careerhero = () => {
 
   const faqs = [
     {
-      question: "How does BSP support learning and growth?",
+      question: "How does Modern Solar 2.0 support learning and growth?",
       answer:
         "We promote continuous learning through live renewable projects, mentorship programs, and professional development opportunities."
     },
     {
-      question: "What makes BSP's work culture unique?",
+      question: "What makes Modern Solar 2.0's work culture unique?",
       answer:
         "Our culture is built on trust, collaboration, innovation, and long-term vision in the renewable energy sector."
     },
     {
-      question: "What impact can I create at BSP?",
+      question: "What impact can I create at Modern Solar 2.0?",
       answer:
         "You contribute directly to India's sustainable energy future while building meaningful professional growth."
     }
@@ -96,7 +96,7 @@ const Careerhero = () => {
 
           <div className="careerhero-card">
 
-            <h2>Your Future with BSP</h2>
+            <h2>Your Future with Modern Solar 2.0</h2>
 
             <p>
               Join a professional team driving India's renewable transformation.

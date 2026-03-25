@@ -40,7 +40,7 @@ const Offgridinstallationprocessbsp = () => {
 
         <div className="Offgridinstallationprocessbsp-header">
           <span className="Offgridinstallationprocessbsp-badge">
-            INSTALLATION PROCESS
+           Modern Solar 2.0 INSTALLATION PROCESS
           </span>
           <h2>
             Off Grid Solar Power System Installation With{" "}
