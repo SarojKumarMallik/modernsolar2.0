@@ -129,7 +129,7 @@ const Navbar = () => {
             </NavLink>
 
             <NavLink
-              to="/about"
+              to="#"
               className={({ isActive }) =>
                 `nav-item ${isActive ? "active" : ""}`
               }
@@ -153,7 +153,7 @@ const Navbar = () => {
               <div
                 className={`dropdown-menu ${activeDropdown === "services" ? "show" : ""}`}
               >
-                <NavLink to="/services/on-grid-solar-system">
+                <NavLink to="#">
                   <FaBolt className="dropdown-icon" />
                   <div className="dropdown-text">
                     <span className="dropdown-title">On Grid Solar System</span>
@@ -163,7 +163,7 @@ const Navbar = () => {
                   </div>
                 </NavLink>
 
-                <NavLink to="/services/hybrid-solar-system">
+                <NavLink to="#">
                   <FaSolarPanel className="dropdown-icon" />
                   <div className="dropdown-text">
                     <span className="dropdown-title">Hybrid Solar System</span>
@@ -171,7 +171,7 @@ const Navbar = () => {
                   </div>
                 </NavLink>
 
-                <NavLink to="/services/off-grid-solar-system">
+                <NavLink to="#">
                   <FaBatteryFull className="dropdown-icon" />
                   <div className="dropdown-text">
                     <span className="dropdown-title">Off Grid Solar</span>
@@ -179,7 +179,7 @@ const Navbar = () => {
                   </div>
                 </NavLink>
 
-                <NavLink to="/services/solar-amc">
+                <NavLink to="#">
                   <FaTools className="dropdown-icon" />
                   <div className="dropdown-text">
                     <span className="dropdown-title">Solar AMC</span>
@@ -205,14 +205,14 @@ const Navbar = () => {
               <div
                 className={`dropdown-menu ${activeDropdown === "projects" ? "show" : ""}`}
               >
-                <NavLink to="/projects/residential-home-solar-system-installation">
+                <NavLink to="#">
                   <FaHome className="dropdown-icon" />
                   <div className="dropdown-text">
                     <span className="dropdown-title">Homes & Residential</span>
                   </div>
                 </NavLink>
 
-                <NavLink to="/projects/commercial-industrial-solar-system">
+                <NavLink to="#">
                   <FaBuilding className="dropdown-icon" />
                   <div className="dropdown-text">
                     <span className="dropdown-title">
