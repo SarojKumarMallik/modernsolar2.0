@@ -205,7 +205,7 @@ const Navbar = () => {
               <div
                 className={`dropdown-menu ${activeDropdown === "projects" ? "show" : ""}`}
               >
-                <NavLink to="residential-home-solar-system-installation">
+                <NavLink to="/projects/residential-home-solar-system-installation">
                   <FaHome className="dropdown-icon" />
                   <div className="dropdown-text">
                     <span className="dropdown-title">Homes & Residential</span>
