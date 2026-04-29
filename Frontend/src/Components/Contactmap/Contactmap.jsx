@@ -19,7 +19,7 @@ const Contactmap = () => {
 
         <div className="contactmap-wrapper">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2725.863946211819!2d86.4133171469589!3d20.499959544080593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1bdbd8af4f0e67%3A0x5d90eb33c36fbf0c!2sBSP%20PROJECT%20SOLUTIONS%20PVT.LTD!5e1!3m2!1sen!2sin!4v1770983208841!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3125.6380084617554!2d85.89577097523373!3d20.179298381265976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjDCsDEwJzQ1LjUiTiA4NcKwNTMnNTQuMSJF!5e1!3m2!1sen!2sin!4v1777446134528!5m2!1sen!2sin"
             width="100%"
             height="450"
             style={{ border: 0 }}

@@ -104,7 +104,7 @@ const Footer = () => {
               <div className="map-container">
                 <div className="map-wrapper">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3119.166912880448!2d86.4162!3d20.499626!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1bdbd8af4f0e67%3A0x5d90eb33c36fbf0c!2sBSP%20PROJECT%20SOLUTIONS%20PVT.LTD!5e1!3m2!1sen!2sin!4v1772303545898!5m2!1sen!2sin"
+                    src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3125.6380084617554!2d85.89577097523373!3d20.179298381265976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjDCsDEwJzQ1LjUiTiA4NcKwNTMnNTQuMSJF!5e1!3m2!1sen!2sin!4v1777446134528!5m2!1sen!2sin"
                     loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"
                   ></iframe>
@@ -117,40 +117,37 @@ const Footer = () => {
                       rel="noopener noreferrer"
                       style={{ textDecoration: "none", color: "inherit" }}
                     >
-                      <FaMapMarkerAlt />Singiri Sasan ,Anada Bazar, Bhubaneswar 752100
+                      <FaMapMarkerAlt />Singiri Sasan,Anada Bazar, Bhubaneswar 752100
                     </a>
                   </p>
 
                   <p>
+                    <FaPhone
+                        style={{
+                          transform: "rotate(90deg)",
+                          display: "inline-block",
+                          
+                        }}
+                      />
                     <a
                       href="tel:+91 9776835415"
                       style={{ textDecoration: "none", color: "inherit" }}
                     >
-                      <FaPhone
-                        style={{
-                          transform: "rotate(90deg)",
-                          display: "inline-block",
-                          marginRight: "6px",
-                        }}
-                      />
+                      
                       +91   9776835415
                     </a>
-                  </p>
-                  <p>
+
+                    /
+
                     <a
                       href="tel:+918763798078"
                       style={{ textDecoration: "none", color: "inherit" }}
                     >
-                      <FaPhone
-                        style={{
-                          transform: "rotate(90deg)",
-                          display: "inline-block",
-                          marginRight: "6px",
-                        }}
-                      />
+                     
                       +91 8763798078
                     </a>
                   </p>
+                  
 
                   <p>
                     <a

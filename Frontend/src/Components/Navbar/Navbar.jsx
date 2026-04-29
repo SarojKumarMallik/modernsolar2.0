@@ -68,8 +68,8 @@ const Navbar = () => {
             <div className="Navbar-contact-item">
               <FaPhoneAlt className="Navbar-contact-icon" />
 
-              <a href="tel:+919776835415" className="Navbar-contact-link">
-                +91 9776835415
+              <a href="tel:+918328806162" className="Navbar-contact-link">
+                +91 8328806162
               </a>
             </div>
             <div className="Navbar-contact-item">
